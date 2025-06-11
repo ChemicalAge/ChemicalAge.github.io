@@ -36,20 +36,23 @@
   flex-wrap: wrap;
 }
 nav a {
+  display: inline-block;
   padding: 0.4rem 0.8rem;
   border-radius: 5px;
   text-decoration: none;
   color: #007acc;
+  background-color: transparent;
   transition: background 0.3s, color 0.3s;
 }
 nav a:hover {
   background: #494949;
-  color: #ffffff;
+  color: #000000;
+  cursor: pointer;
 }
 nav a.active {
   font-weight: bold;
-  color: #373737;
-  background-color: #767575;
+  color: #f7f7f7;
+  background-color: #333;
 }
     h2 {
       color: #007acc;
