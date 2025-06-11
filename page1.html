@@ -14,7 +14,10 @@
 </head>
     <body>
         <style>
-
+            html{
+                height: 100%;
+                margin: 0;
+            }
             body {
       margin: 0;
       font-family: system-ui, sans-serif;
@@ -23,6 +26,7 @@
       line-height: 1.6;
       padding-left: 200px;
       position: relative;
+      height: 890px;
     }
     header {
       background: #f0f0f0;
@@ -39,17 +43,16 @@
       background: #f0f0f0;
       text-align: center;
       padding: 1rem 0;
+      width: 100%;
       position: fixed;
       bottom: 0;
-      width: 100%;
-      right:0;
-      
-      
-    }
+      }
     main {
       max-width: 100%;
       margin: 80px auto 80px;
       padding: 0 1rem;
+      overflow: auto;
+      flex: 1;
     }
            
 .navbar {
