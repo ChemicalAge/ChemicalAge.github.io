@@ -24,22 +24,7 @@
       padding-left: 200px;
       position: relative;
     }
-
-    /* Mobile menu button */
-        .menu-btn {
-            position: fixed;
-            top: 15px;
-            left: 15px;
-            font-size: 24px;
-            z-index: 1000;
-            background: #333;
-            color: white;
-            padding: 5px 10px;
-            border-radius: 4px;
-            cursor: pointer;
-            display: none; /* Hidden on desktop by default */
-        }
-
+    
     header {
       background: #f0f0f0;
       text-align: center;
@@ -96,29 +81,7 @@
   color: white;
 }
 
-
-@media (min-width: 768px) {
-            body {
-                padding-left: 200px;
-            }
-            
-            .menu-btn {
-                display: none; /* Hide toggle button on desktop */
-            }
-            
-            .navbar {
-                left: 0; /* Always show sidebar on desktop */
-            }
-            
-            header, footer {
-                left: 200px; /* Adjust for sidebar */
-            }
-        }
         </style>
-
-        <input type="checkbox" id="sidebar-toggle" class="toggle-checkbox">
-    
-    <label for="sidebar-toggle" class="menu-btn">☰</label>
 <main>
 <header><h1>Web Developing Studies</h1></header>
 </main>
