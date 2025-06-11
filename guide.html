@@ -26,14 +26,31 @@
       margin: 2rem auto;
       padding: 0 1rem;
     }
-    nav a {
-      margin: 0 10px;
-      text-decoration: none;
-      color: #007acc;
-    }
-    nav a:hover {
-      text-decoration: underline;
-    }
+   nav {
+  background: linear-gradient(to right, #f0f0f0, #f0f0f0);
+  
+  padding: 0.5rem 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+nav a {
+  padding: 0.4rem 0.8rem;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #007acc;
+  transition: background 0.3s, color 0.3s;
+}
+nav a:hover {
+  background: #f0f0f0;
+  color: #787676;
+}
+nav a.active {
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #333;
+}
     h2 {
       color: #007acc;
     }
@@ -43,8 +60,8 @@
 <header>
   <h1><strong>Legend</strong></h1>  
 <nav>
-<a href="index.html">Home</a>
-<a href="page1.html">Project 1</a>
+<a href="index.html" class="active">Home</a>
+<a href="page1.html" class="active">Project 1</a>
 </nav>
 </header>
   
